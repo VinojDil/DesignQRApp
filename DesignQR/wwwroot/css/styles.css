@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 5px;
+}
+
+.container {
+    width: max-width;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    height: auto;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.image-slider {
+    position: relative; /* Required for absolute positioning of controls */
+    border: 1px solid black; 
+}
+
+.image-slider img {
+    width: 60%; /* Reduce size to 80% of the row */
+    height: auto; /* Maintain aspect ratio */
+    margin: auto; /* Center the image */
+    display: block;
+    border: 1px solid black;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
+    z-index: 5;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add background for better visibility */
+    border-radius: 50%; /* Make the button circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-control-prev {
+    left: 60px; /* Position to the left of the image slider row */
+}
+
+.carousel-control-next {
+    right: 60px; /* Position to the right of the image slider row */
+}
+
+#imageDescription {
+    color: #333; /* Adjust text color */
+    font-size: 1rem; /* Adjust font size */
+    margin-top: 5px;
+    font-weight: 200;
+    text-align: center; /* Center-align the description text */
+}
+
+.video-slider {
+    margin-top: 50px;
+    border: 1px solid black; /* Center the image */
+}
+
+#videoCarousel .carousel-item {
+    height: auto; /* Adjust height as needed */
+  }
+
+#videoCarousel .carousel-item video {
+    width: 100%; /* Reduce size to 80% of the row */
+    height: auto; /* Maintain aspect ratio */
+    margin: auto; /* Center the image */
+    display: block;
+    border: 1px solid black;
+}
+
+#videoDescription {
+    color: #333; /* Adjust text color */
+    font-size: 1rem; /* Adjust font size */
+    margin-top: 5px;
+    font-weight: 200;
+    text-align: center; /* Center-align the description text */
+  }
+
+#rightAlignedText {
+    color: #333; /* Adjust text color */
+    font-size: 1rem; /* Adjust font size */
+    margin-top: 50px;
+    font-weight: 200;
+    text-align: right;
+    border: 1px solid black; /* Right-align the text */
+}
+
+#narrativeText {
+    color: #333; /* Adjust text color */
+    font-size: 1rem; /* Adjust font size */
+    margin-top: 5px;
+    font-weight: 200;
+    text-align: center;
+    border: 1px solid black; /* Right-align the text */
+}
+
+.image-slider-last {
+    position: relative; /* Required for absolute positioning of controls */
+    border: 1px solid black;
+    margin-top: 20px; 
+}
+
+.image-slider-last img {
+    width: 60%; /* Reduce size to 80% of the row */
+    height: auto; /* Maintain aspect ratio */
+    margin: auto; /* Center the image */
+    display: block;
+    border: 1px solid black;
+}
+
+#imageDescription {
+    color: #333; /* Adjust text color */
+    font-size: 1rem; /* Adjust font size */
+    margin-top: 5px;
+    font-weight: 200;
+    text-align: center; /* Center-align the description text */
+}
+
+.video-slider-last {
+    margin-top: 50px;
+    border: 1px solid black; /* Center the image */
+}
+
+#videoCarousel2 .carousel-item {
+    height: auto; /* Adjust height as needed */
+  }
+
+#videoCarousel2 .carousel-item video {
+    width: 100%; /* Reduce size to 80% of the row */
+    height: auto; /* Maintain aspect ratio */
+    margin: auto; /* Center the image */
+    display: block;
+    border: 1px solid black;
+}
+
+#narrativeText2 {
+    color: #333; /* Adjust text color */
+    font-size: 1rem; /* Adjust font size */
+    margin-top: 50px;
+    font-weight: 200;
+    text-align: center;
+    border: 1px solid black; /* Right-align the text */
+}
+
+
+#BOMText {
+    color: #333; /* Adjust text color */
+    font-size: 1rem; /* Adjust font size */
+    margin-top: 5px;
+    font-weight: 200;
+    text-align: center;
+    border: 1px solid black; /* Right-align the text */
+}
+
+.num_boxes {
+    position: relative; /* Required for absolute positioning of controls */
+    border: 1px solid black;
+    margin-top: 5px; 
+}
+
+.findout {
+    position: relative; /* Required for absolute positioning of controls */
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    
+}
+
+@media (min-width: 769px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 50px;
+        height: 50px;
+    }
+
+    .num_boxes {
+        align-items: center;
+        text-align: center;
+        align-content: center; 
+    }
+
+    #barimg1{
+        max-width: 25%;
+        padding-left: 0px;
+    }
+
+}
