@@ -53,4 +53,4 @@ jobs:
           app-name: 'INTSEAISSMDSCDPRD01'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6D3567246A09419D90A8810834F88C0F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5DD674D8B2334BCA921BAE8EEE88A96F }}
